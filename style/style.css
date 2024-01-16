@@ -417,3 +417,63 @@ font-weight: 600;
     padding: 30px 620px 30px;
 }
 /* footer section end */
+/* .banner-img-text{
+    
+    display: none;
+} */
+/* .popular-text-img{
+    display: none;
+} */
+/* .destination-container{
+    display: none;
+} */
+/* .choosing-container{
+    display: none;
+} */
+/* .discount-section{
+    display: none;
+} */
+/* .simple-place-text-img{
+    display: none;
+} */
+/* .newsletter-text-img{
+    display: none;
+} */
+/* .last-section{
+    display: none;
+} */
+
+/* responsive for vobe devive */
+@media screen and (max-width:576px) { 
+   
+    .header,.banner-img-text,.destination-container,.choosing-container,.discount-text{
+    padding:0px ;
+}
+.header,.first-box,.simple-place-text-img,.newsletter-text-img{
+    flex-direction: column;
+}
+.popular-text-img{
+    flex-direction: column;
+    padding: 10px;
+}
+.first-two-picture,.second-three-picture,.third-two-picture {
+    flex-direction: column;
+    width: 100%;
+}
+.box-3{
+    margin: 0px;
+}
+.simple-place-text-img {
+    padding: 0px;
+}
+.newsletter-text-img {
+    padding: 0px;
+}
+/* .last-section{
+    width: 375px;
+height: 309px;
+} */
+/* .banner-img-text{
+    display: block;
+} */
+}
